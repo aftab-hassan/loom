@@ -33,7 +33,7 @@ a few things
 17. Difference between button tag and input type="button"
    button tag - https://www.w3schools.com/tags/tag_button.asp
    input type="button" - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button 
-18. self closing attributes </> v. <></>
+
 
 
 20. A lesson on heights
