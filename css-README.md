@@ -34,7 +34,9 @@ a few things
    button tag - https://www.w3schools.com/tags/tag_button.asp
    input type="button" - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button 
 18. self closing attributes </> v. <></>
-19. A lesson on heights
+
+
+20. A lesson on heights
 https://codesandbox.io/s/agitated-raman-khm1o?file=/styles.css
 20. BEM
 21. Get modal width from window.innerWidth as opposed to harcoding px in .modal;
@@ -45,3 +47,4 @@ input {
   outline: 1px solid black;
 }
 24.bunny ears todo  - https://codepen.io/afhassan/pen/RwKeMRW
+25.Card flip - https://codier.io/challenge/SktpGSXH7
