@@ -44,4 +44,4 @@ https://codesandbox.io/s/agitated-raman-khm1o?file=/styles.css
 input {
   outline: 1px solid black;
 }
-24.bunny ears todo - https://codepen.io/afhassan/pen/RwKeMRW
+24.bunny ears todo  - https://codepen.io/afhassan/pen/RwKeMRW
