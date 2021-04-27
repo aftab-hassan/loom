@@ -45,3 +45,33 @@ input {
   outline: 1px solid black;
 }
 24.bunny ears todo  - https://codepen.io/afhassan/pen/RwKeMRW
+25. When using position: fixed;, be careful of how position of other elements might not make sense,
+For example, in below, the position of green div looks odd, because it is inside body and body has an 8px margin
+whereas, div.black has been fixed position to be at 0px from the top of the viewport.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.black {
+  position: fixed;
+  height: 200px;
+  top: 0px;
+  border: 3px solid black;
+} 
+
+div.green {
+  left: 0px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<div class="black">black</div>
+<div class="green">green</div>
+
+</body>
+</html>
+
+26. 
