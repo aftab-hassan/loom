@@ -76,10 +76,9 @@ div.green {
 
 </body>
 </html>
-
-26. Nice example of position. Look for "Positioning Text In an Image" here https://www.w3schools.com/css/css_positioning.asp
-27. Is it <div /> or <div></div>? Gosh!
-28. What does left:50% mean?
+27. Nice example of position. Look for "Positioning Text In an Image" here https://www.w3schools.com/css/css_positioning.asp
+28. Is it <div /> or <div></div>? Gosh!
+29. What does left:50% mean?
 https://wattenberger.com/blog/css-percents
-29. mixins?
-30. slots?
+30. mixins?
+31. slots?
