@@ -34,7 +34,9 @@ a few things
    button tag - https://www.w3schools.com/tags/tag_button.asp
    input type="button" - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button 
 18. self closing attributes </> v. <></>
-19. A lesson on heights
+
+
+20. A lesson on heights
 https://codesandbox.io/s/agitated-raman-khm1o?file=/styles.css
 20. BEM
 21. Get modal width from window.innerWidth as opposed to harcoding px in .modal;
@@ -45,7 +47,8 @@ input {
   outline: 1px solid black;
 }
 24.bunny ears todo  - https://codepen.io/afhassan/pen/RwKeMRW
-25. When using position: fixed;, be careful of how position of other elements might not make sense,
+25.Card flip - https://codier.io/challenge/SktpGSXH7
+26. When using position: fixed;, be careful of how position of other elements might not make sense,
 For example, in below, the position of green div looks odd, because it is inside body and body has an 8px margin
 whereas, div.black has been fixed position to be at 0px from the top of the viewport.
 <!DOCTYPE html>
@@ -74,4 +77,9 @@ div.green {
 </body>
 </html>
 
-26. 
+26. Nice example of position. Look for "Positioning Text In an Image" here https://www.w3schools.com/css/css_positioning.asp
+27. Is it <div /> or <div></div>? Gosh!
+28. What does left:50% mean?
+https://wattenberger.com/blog/css-percents
+29. mixins?
+30. slots?

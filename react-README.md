@@ -19,3 +19,7 @@
        }
      });
    }
+
+3. Thinking in react hooks - https://wattenberger.com/blog/react-hooks
+
+4. 
