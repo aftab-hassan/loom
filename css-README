@@ -42,6 +42,14 @@ https://codesandbox.io/s/agitated-raman-khm1o?file=/styles.css
 21. Get modal width from window.innerWidth as opposed to harcoding px in .modal;
 https://codesandbox.io/s/agitated-raman-khm1o?file=/styles.css
 22. is it possible to give pixel space between flex items?
+(Another 5 must know css tricks that almost nobody knows - WebDevSimplified - Apr 27, 2021)
+.flex > * {
+   margin-right: 10px;
+}
+.flex > *:last-child {
+   margin-right: 0;
+}
+
 23. How to say input type="checkbox" as opposed to 
 input {
   outline: 1px solid black;
@@ -82,3 +90,39 @@ div.green {
 https://wattenberger.com/blog/css-percents
 30. mixins?
 31. slots?
+32. What is css-in-js?
+    - Why are there libraries implementing css-in-js?
+    - End goal of all this: to write css inside js file
+    - What are some of the good libraries? What should I use?
+      jss? emotion? aphrodite? radium?
+    https://github.com/threepointone/glamor
+    https://cssinjs.org/?v=v10.6.0
+33. What is a styled component?
+
+Discuss with Vitalie
+1. css variable example (portfolio website)
+   Is it for code consistency?
+   ans: yup
+
+2. css in js example
+   - Why are there so many frameworks?
+   ans: yup
+
+   - Does fluentui have a framework too? mergeStyles?
+   ans: mergeStyles
+
+3. How do I pass a variable from .tsx to a css file? Can I do that?
+   ans: css in js
+
+4. What is a styled component?
+   - https://styled-components.com/docs/basics
+   ans: basically a component using css-in-js
+
+5. difference b/w inline css and css-in-js
+   ans: css-in-js generates classnames with random number appended, injects script at root and stuff
+        inline css is just saying <div style=../ >
+
+6. What other ways of styling fabric components are there?
+"This page describes an older way of handling component styles in @fluentui/react 7/8 (and office-ui-fabric-react previously). As of late 2020, many existing components still use this approach, but new components should not."
+
+7.styled() is for theming
